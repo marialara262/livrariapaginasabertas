@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário - Páginas Abertas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+     rel="stylesheet">
+</head>
+
+<body>
+    <header id="topo">
+        <div class="container">
+            <h1> <a href="index.html"> <img src=imagens/Logolivraria.png> </a> </h1>
+            <nav id="menu-topo">
+                <ul>
+                    <li> <a href="livros.html">LIVROS</a> </li>
+                    </li> <a href="#info">AUTORES</a> </li>
+                    </li> <a href="sobrenos.html">SOBRE NÓS</a> </li>
+                    </li> <a href="#novidades">PROMOÇÕES</a> </li>
+                </ul>
+            </nav>
+            
+            <div class="img1">
+                <div>
+                    <h2 id="frase1">Ler é viver mil vidas.</h2>
+                    <h2 id="frasedois">Qual será a sua <span class="texto-laranja">hoje?</span></h2>
+                </div>
+                <img src="imagens/primeirafoto.jpg" id="primeira" >
+            </div>
+            
+        </div>
+    </header>
+    
+    <div class="container" id="acaba">
+        <h1> <a href="index.html"> </a> </h1>
+        <form action="#" method="POST"> 
+            <div class="form-header">
+                <h1 class="fale">Fale conosco:</h1>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="telefone">Número de telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="compra">Já fez alguma compra em nossa Livraria?</label>
+                <input type="text" id="compra" name="compra" placeholder="Sim/Não" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="motivo">Qual motivo te trouxe aqui?</label>
+                <textarea id="motivo" name="motivo" rows="4" placeholder="Ex: Dúvida sobre um livro, Reclamação, Sugestão..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+            <a href="index.html" class="voltar">Voltar para a página inicial</a>
+
+        <footer id="rodape">
+        <div class="container grid-rodape">
+            <h1> <a href="index.html"> <img src=imagens/Logolivraria.png> </a> </h1>
+            <div id="redes">
+                <a href=""> <img src="imagens/instagram2.png" class="sociais"> </a>
+                <a href=""> <img src="imagens/facebook2.png" class="sociais"> </a>
+                <a href=""> <img src="imagens/whatsapp.png" class="sociais"> </a>
+            </div>
+            <h3>Design by: Maria Lara Ramos</h3>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -385,3 +385,264 @@ flex-wrap: wrap;
     width: 45%;
     margin: 10px;
 }
+
+#formular a{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#formular a:hover{
+    color: var(--laranja);
+    text-decoration: underline;
+    
+}
+
+
+
+#acaba{
+    background-color: var(--laranja);
+    
+}
+
+.fale{
+    font-family: var(--fonte-titulo);
+    color: var(--preto);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background-color: var(--pêssego-claro);
+  }
+
+  .container {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  #topo {
+    background-color: var(--pêssego-claro)
+
+}
+
+  #topo h1 img {
+    max-width: 700px;
+  }
+
+  #menu-topo ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 40px 0;
+  }
+
+  #menu-topo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+  }
+
+  .img1 {
+    background-color: #f6caa1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+    margin-top: -50px;
+  }
+
+  .img1 h2 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    min-height: 0;
+    font-size: 40px;
+  }
+
+  #frase1 {
+    font-size: 50px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #frasedois {
+    margin-left: 0;
+    font-size: 50px;
+  }
+
+  .texto-laranja {
+    color: #ff7a45;
+     font-size: 50px;
+  }
+
+  #primeira {
+    max-width: 330px;
+    height: 300px;
+  }
+
+#info h3{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: 200px;
+    color: var(--branco);
+    text-align: center;
+    padding: 15px;
+}
+#info .imagens-literatura{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0px;
+
+}
+
+#info .imagens-literatura img{
+    width: 280px;
+    height: 248px;
+}
+
+#info .imagens-literatura h4 a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.container h3{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: 200px;
+    color: var(--branco);
+    text-align: center;
+    padding: 30px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.produtos article{
+    text-align: center;
+}
+
+.imglivros{
+    width:200px;
+    height: auto;
+    border-radius: 10px;
+ 
+}
+
+.produtos h4 a{
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nossalivraria .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: var(--preto);
+}
+#nossalivraria .imagem{
+    width: 2500px;
+    text-align: center;
+}
+#nossalivraria .imagem .imgult{
+    width: 100%;
+    display: block;
+    
+}
+#nossalivraria h3{
+    color: var(--preto);
+    font-size: 60px;
+    
+}
+#nossalivraria .imagem h3{
+    color:var(--preto);
+    font-size: 22px;
+    margin-bottom: 10px;
+    position: static;
+    
+}
+#nossalivraria p{
+    color: var(--preto);
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+}
+
+@media (max-width: 768px){
+    #nossalivraria .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        color: var(--preto);
+    }
+    #nossalivraria .imagem{
+        width: 2500px;
+        text-align: center;
+    }
+    #nossalivraria .imagem .imgult{
+        width: 100%;
+        display: block;
+        
+    }
+    #nossalivraria h3{
+        color: var(--preto);
+        font-size: 60px;
+        
+    }
+    #nossalivraria .imagem h3{
+        color:var(--preto);
+        font-size: 22px;
+        margin-bottom: 10px;
+        position: static;
+        
+    }
+    #nossalivraria p{
+        color: var(--preto);
+        font-size: 11px;
+        line-height: 1.5;
+        max-width: 500px;
+}
+}
